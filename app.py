@@ -39,8 +39,6 @@ def calculate_average(lst):
 def broken_divide(a, b):
     return a / 0         # ← BUG: always divides by zero!
 
-def square(n):
-    return n ** 2
 
 if __name__ == "__main__":
     print(greet("World"))
