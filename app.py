@@ -36,10 +36,6 @@ def find_min(lst):
 def calculate_average(lst):
     return sum(lst) / len(lst)
 
-def broken_divide(a, b):
-    return a / 0         # ← BUG: always divides by zero!
-
-
 if __name__ == "__main__":
     print(greet("World"))
     print(f"Reverse of 'Python': {reverse_string('Python')}")
