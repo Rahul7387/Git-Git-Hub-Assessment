@@ -26,6 +26,16 @@ def is_palindrome(s):
 def word_count(s):
     return len(s.split())
 
+# --- New Feature: List Utilities (WIP) ---
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def calculate_average(lst):
+    return sum(lst) / len(lst)
+
 if __name__ == "__main__":
     print(greet("World"))
     print(f"Reverse of 'Python': {reverse_string('Python')}")
